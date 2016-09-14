@@ -1,0 +1,29 @@
+{
+  "name": "file_update",
+  "version": "1.0.0",
+  "description": "##API ####uploadHelper(event,imgSize,returnType,callback)   input:pic file  output:blob/dataURI ####fileToDataUrl(file,callback)  convert blob to dataURI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangdongming1989/upload_helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangdongming1989/upload_helper/issues"
+  },
+  "homepage": "https://github.com/zhangdongming1989/upload_helper#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mime": "^1.3.4",
+    "multer": "^1.2.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
